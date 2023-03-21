@@ -58,9 +58,10 @@ body {
 }
 
 .footer-links{
-    margin-top: 68px;
     display: flex;
-    justify-content: center; 
+    margin: auto;
+    margin-top: 68px;
+    justify-content:space-between; 
     width: 236px;
     height: 27px;
 }
