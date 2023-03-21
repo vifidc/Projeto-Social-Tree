@@ -11,14 +11,20 @@ body {
 }
 
 .header-page {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 33px;
 }
 
 .header-page img {
-    display: flex;
     height: 200px;
-    margin-bottom: 22px
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 22px;
+    border-radius: 50px;
+    border: 2px solid;
 }
 
 .header-page a {
@@ -27,7 +33,7 @@ body {
     line-height: 24px;
 }
 
-.header-page a, .container-links a, .footer-links a{
+.header-page a, .container-links a, .footer-links a, .header-page img{
     color: #BB99DD;
 }
 
@@ -51,16 +57,12 @@ body {
     text-transform: uppercase;
 }
 
-.footer-links {
-    margin-top: 68px;
-}
-
 .footer-links{
+    margin-top: 68px;
     display: flex;
     justify-content: center; 
     width: 236px;
     height: 27px;
-    gap: 29px;
 }
 
 
