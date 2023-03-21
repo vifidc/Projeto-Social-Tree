@@ -1,0 +1,54 @@
+body {
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-page {
+    width: 328px;
+    height: 600px;
+    margin: auto;
+    margin-top: 201px;
+    
+}
+
+.header-page a, .container-links a, .footer-links a{
+    color: #BB99DD;
+}
+
+.header-page a, .container-links a{
+    text-decoration: none;
+}
+
+.header-page {
+    margin-bottom: 33px;
+    text-align: center;
+}
+
+.header-page a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.container-links a {
+    margin-top: 16px;
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border: 2px solid;
+    width: 362px;
+    height: 49px;
+    align-items: center;
+    border-radius: 4px;
+    padding-top: 12px;
+    text-transform: uppercase;
+  
+}
+
+
+
+
+
