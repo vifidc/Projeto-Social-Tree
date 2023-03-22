@@ -67,7 +67,6 @@ body {
 
 .footer-links{
     display: flex;
-    margin: 65px auto;
     justify-content:space-between; 
     width: 236px;
     height: 27px;
