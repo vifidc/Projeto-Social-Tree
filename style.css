@@ -4,10 +4,6 @@ body {
 }
 
 .main-page {
-    width: 328px;
-    height: 600px;
-    margin: auto;
-    margin-top: 201px;
 }
 
 .header-page {
@@ -29,12 +25,6 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.header-page a {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 24px;
-}
-
 .header-page a, .container-links a, .footer-links a, .header-page img{
     color: #BB99DD;
 }
@@ -43,10 +33,21 @@ body {
     text-decoration: none;
 }
 
+.header-page a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.container-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .container-links a {
     display: flex;
     flex-direction: column;
-    margin-top: 16px;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -55,15 +56,13 @@ body {
     height: 49px;
     align-items: center;
     border-radius: 4px;
-    padding-top: 12px;
+    justify-content: center;
     text-transform: uppercase;
 }
 
-
 .footer-links{
     display: flex;
-    margin: auto;
-    margin-top: 65px;
+    margin: 65px auto;
     justify-content:space-between; 
     width: 236px;
     height: 27px;
